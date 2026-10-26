@@ -22,7 +22,7 @@ export const Route = createFileRoute("/")({
   component: Index,
 });
 
-const nav = ["About", "Skills", "Projects", "Education", "Learning", "Contact"];
+const nav = ["Home", "About", "Skills", "Projects", "Education", "Learning", "Contact"];
 
 async function downloadResume(e: React.MouseEvent) {
   e.preventDefault();
@@ -96,7 +96,7 @@ function Index() {
       <NetworkBackground />
       <header className="sticky top-0 z-50 border-b border-border/60 bg-background/80 backdrop-blur">
         <nav className="mx-auto flex max-w-6xl items-center justify-between px-5 py-4" aria-label="Main">
-          <a href="#top" className="font-display text-lg font-bold">
+          <a href="#home" className="font-display text-lg font-bold">
             Vipin<span className="text-gradient">.ai</span>
           </a>
           <Button variant="ghost" size="icon" className="md:hidden" aria-label="Toggle menu" aria-expanded={open} onClick={() => setOpen(!open)}>
@@ -123,7 +123,7 @@ function Index() {
         </nav>
       </header>
 
-      <main id="top" className="relative z-10">
+      <main id="home" className="relative z-10">
         <section className="mx-auto flex min-h-[min(680px,76svh)] max-w-6xl flex-col justify-center border-b border-border/60 px-5 py-14 sm:py-16">
           <p className="animate-fade-up mb-5 flex items-center gap-3 text-sm font-medium text-primary"><span className="h-px w-8 bg-primary" aria-hidden="true" />Hello, I'm</p>
           <h1 className="animate-fade-up text-5xl font-bold leading-tight sm:text-6xl md:text-7xl lg:text-8xl">{site.name}</h1>
