@@ -61,7 +61,11 @@ npm run lint     # code check
 | `src/styles.css` | Rang (dark navy, blue/purple accent), fonts, glow shadow, animation. |
 | `src/routes/__root.tsx` | Page title, SEO description, Google Fonts load. |
 | `public/resume.pdf` | **Apna resume PDF yahan daalo** — "Download Resume" button chalu ho jayega. |
+<<<<<<< HEAD
 <!-- | `public/favicon.ico` | Tab ka icon. | -->
+=======
+| `public/favicon.ico` | Tab ka icon. |
+>>>>>>> f07d2aa1cd074c46d1771796cb448b0726b7bafc
 
 ### Content edit karne ka example
 
@@ -146,7 +150,11 @@ https://app.netlify.com → **Add new site → Import from Git** → repo select
 
 ```text
 vipin-saket-portfolio/
+<<<<<<< HEAD
 <!-- ├── public/                 resume.pdf, favicon, robots.txt -->
+=======
+├── public/                 resume.pdf, favicon, robots.txt
+>>>>>>> f07d2aa1cd074c46d1771796cb448b0726b7bafc
 ├── src/
 │   ├── content/site.ts     ← SAB content yahan (naam, skills, projects)
 │   ├── routes/
